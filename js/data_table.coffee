@@ -2,7 +2,7 @@
 ---
 
 fname = (data, type, row) ->
-  '<a href="{{ site.baseurl }}/simulations/' + data + '" target="_blank">' + data + '</a>'
+  '<a href="{{ site.baseurl }}/simulations/' + data + '">' + data + '</a>'
 
 fauthor = (data, type, row) ->
   if data.email
